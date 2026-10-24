@@ -1,27 +1,27 @@
 <!-- =========================================================
      PROFILE README — UITxWoodyNguyen
-     Customize: replace placeholder links, text, and project names.
-     Visual style: ethical hacker / neon terminal / dark-first.
-     Animations used: typing SVG + contribution snake (2 total).
+     Focus: Reverse Engineering • Pwn / Exploitation • Cryptography
+            • Academic and independent security research
+     Customize: replace links marked with REPLACE-ME.
+     Animations: typing SVG + contribution snake only.
 ========================================================= -->
 
-<!-- 1) HERO / IDENTITY: typing animation is intentionally lightweight. -->
+<!-- 1) HERO: concise identity with a lightweight typing animation. -->
 <p align="center">
   <a href="https://github.com/UITxWoodyNguyen">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=760&lines=UITxWoodyNguyen+%2F+Security-minded+Builder;Ethical+Hacker+%7C+Developer+%7C+CTF+Learner;Break.+Build.+Defend." alt="Typing introduction" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=23&duration=2800&pause=900&color=00F5FF&center=true&vCenter=true&width=820&lines=UITxWoodyNguyen+%2F+Security+Researcher;Reverse+Engineering+%7C+Pwn+%7C+Cryptography;Understand+the+machine.+Question+the+assumptions." alt="Typing introduction" />
   </a>
 </p>
 
-<!-- 2) SHORT INTRO: keep the message readable without overusing effects. -->
 <h1 align="center">Hi, I'm Woody Nguyen 👋</h1>
 
 <p align="center">
-  <strong>Ethical hacker in training • Software builder • Security enthusiast</strong>
+  <strong>Reverse Engineering • Binary Exploitation • Cryptography • Academic Research</strong>
 </p>
 
 <p align="center">
-  I enjoy turning curiosity into useful tools, learning how systems fail,
-  and building better defenses through responsible security research.
+  I study how software, binaries, protocols, and cryptographic constructions behave
+  under adversarial conditions—and how to explain those findings clearly and responsibly.
 </p>
 
 <p align="center">
@@ -36,58 +36,121 @@
 
 ---
 
-<!-- 3) CURRENT MISSION: edit this block as your focus changes. -->
-## 🛰️ Current Mission
+<!-- 2) RESEARCH PROFILE: edit the topics to match your current academic direction. -->
+## 🧭 Research Profile
 
 ```text
-[+] Learn deeply, build responsibly
-[+] Practice offensive security in authorized labs and CTFs
-[+] Improve secure coding, automation, and defensive thinking
-[+] Share practical notes, tools, and lessons learned
+Primary interests
+├── Reverse engineering and binary analysis
+├── Vulnerability research and binary exploitation
+├── Applied cryptography and protocol analysis
+├── Program analysis, fuzzing, and symbolic execution
+└── Reproducible security research and technical writing
 ```
 
-> Security is most valuable when it helps people understand risk and build safer systems.
+> My goal is not only to make a proof of concept work, but to understand the underlying mechanism,
+> state the assumptions precisely, and communicate the result in a reproducible way.
+
+### Research principles
+
+- **Reproducibility:** document toolchains, versions, assumptions, and test cases.
+- **Rigor:** distinguish observation, hypothesis, exploitability, and impact.
+- **Responsible disclosure:** work only on systems and targets where testing is authorized.
+- **Academic curiosity:** connect practical findings with papers, formal models, and prior work.
 
 ---
 
-<!-- 4) ARSENAL: grouped badges make the stack easier to scan and customize. -->
-## ⚔️ Arsenal
+<!-- 3) CURRENT WORK: this terminal block gives the profile an academic lab-notebook feel. -->
+## 🔬 Current Workbench
 
-### Offensive
+```text
+[01] Disassemble → understand control flow, data flow, and program boundaries
+[02] Instrument  → observe runtime behavior with tracing, debugging, and emulation
+[03] Model       → identify assumptions, invariants, and attack surfaces
+[04] Validate    → build minimal, ethical, reproducible experiments
+[05] Explain     → write notes, proofs of concept, and research-oriented reports
+```
+
+---
+
+<!-- 4) ARSENAL: grouped by research workflow rather than generic security labels. -->
+## ⚔️ Research Arsenal
+
+### Reverse Engineering
 <p>
-  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
-  <img src="https://img.shields.io/badge/Burp_Suite-0D1117?style=for-the-badge&logo=burpsuite&logoColor=FF6633" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Nmap-0D1117?style=for-the-badge&logoColor=00F5FF" alt="Nmap" />
-  <img src="https://img.shields.io/badge/OWASP-0D1117?style=for-the-badge&logo=owasp&logoColor=000000" alt="OWASP" />
+  <img src="https://img.shields.io/badge/Ghidra-0D1117?style=for-the-badge&logoColor=00F5FF" alt="Ghidra" />
+  <img src="https://img.shields.io/badge/IDA-0D1117?style=for-the-badge&logoColor=FF4D6D" alt="IDA" />
+  <img src="https://img.shields.io/badge/radare2-0D1117?style=for-the-badge&logoColor=00FF9C" alt="radare2" />
+  <img src="https://img.shields.io/badge/LLDB-0D1117?style=for-the-badge&logo=llvm&logoColor=5E5CE6" alt="LLDB" />
+  <img src="https://img.shields.io/badge/GDB-0D1117?style=for-the-badge&logo=gnu&logoColor=FFFFFF" alt="GDB" />
 </p>
 
-### Defensive
+### Pwn & Exploitation
 <p>
-  <img src="https://img.shields.io/badge/Secure_Coding-0D1117?style=for-the-badge&logo=github&logoColor=00F5FF" alt="Secure coding" />
-  <img src="https://img.shields.io/badge/Threat_Modeling-0D1117?style=for-the-badge&logoColor=00FF9C" alt="Threat modeling" />
-  <img src="https://img.shields.io/badge/Incident_Response-0D1117?style=for-the-badge&logoColor=FF4D6D" alt="Incident response" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/pwntools-0D1117?style=for-the-badge&logo=python&logoColor=FFD43B" alt="pwntools" />
+  <img src="https://img.shields.io/badge/ROP-0D1117?style=for-the-badge&logoColor=FF4D6D" alt="ROP" />
+  <img src="https://img.shields.io/badge/Heap_Internals-0D1117?style=for-the-badge&logoColor=8A2BE2" alt="Heap internals" />
+  <img src="https://img.shields.io/badge/Fuzzing-0D1117?style=for-the-badge&logoColor=00F5FF" alt="Fuzzing" />
+  <img src="https://img.shields.io/badge/angr-0D1117?style=for-the-badge&logoColor=00FF9C" alt="angr" />
 </p>
 
-### Languages
+### Cryptography
 <p>
+  <img src="https://img.shields.io/badge/Number_Theory-0D1117?style=for-the-badge&logoColor=00F5FF" alt="Number theory" />
+  <img src="https://img.shields.io/badge/Applied_Cryptography-0D1117?style=for-the-badge&logoColor=8A2BE2" alt="Applied cryptography" />
+  <img src="https://img.shields.io/badge/Protocol_Analysis-0D1117?style=for-the-badge&logoColor=00FF9C" alt="Protocol analysis" />
+  <img src="https://img.shields.io/badge/SageMath-0D1117?style=for-the-badge&logoColor=FFFFFF" alt="SageMath" />
+</p>
+
+### Languages & Systems
+<p>
+  <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C" />
+  <img src="https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
+  <img src="https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=DEA584" alt="Rust" />
   <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=00FF9C" alt="Bash" />
+  <img src="https://img.shields.io/badge/Assembly-0D1117?style=for-the-badge&logoColor=FF4D6D" alt="Assembly" />
+  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
 </p>
 
-### Tools
+### Research & Reproducibility
 <p>
-  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex&logoColor=008080" alt="LaTeX" />
+  <img src="https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoColor=F37626" alt="Jupyter" />
   <img src="https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="Visual Studio Code" />
-  <img src="https://img.shields.io/badge/Proxmox-0D1117?style=for-the-badge&logo=proxmox&logoColor=E57000" alt="Proxmox" />
+  <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
 </p>
 
 ---
 
-<!-- 5) SYSTEM STATS: every stats endpoint uses username=UITxWoodyNguyen. -->
+<!-- 5) ACADEMIC INTERESTS: useful for visitors looking for research collaboration. -->
+## 📚 Academic Interests
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Program Analysis</h3>
+      <p>Static and dynamic analysis, control-flow recovery, taint tracking, symbolic execution, and coverage-guided fuzzing.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Binary Security</h3>
+      <p>Memory corruption, mitigations, ABI behavior, heap allocators, ROP/JOP, and exploitability analysis in controlled environments.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Cryptographic Reasoning</h3>
+      <p>Classical and modern primitives, implementation pitfalls, protocol assumptions, reductions, and experimental validation.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Research Communication</h3>
+      <p>Technical reports, reproducible notebooks, literature reviews, CTF methodology, and clear explanations of complex systems.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- 6) SYSTEM STATS: all endpoints intentionally use username=UITxWoodyNguyen. -->
 ## 📊 System Stats
 
 <p align="center">
@@ -101,39 +164,39 @@
 
 ---
 
-<!-- 6) TROPHIES: static image with a dark theme; reduce rows if you want a smaller card. -->
+<!-- 7) TROPHIES: kept compact so the research content remains the focus. -->
 ## 🏆 Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=UITxWoodyNguyen&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub profile trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=UITxWoodyNguyen&theme=onedark&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub profile trophies" />
 </p>
 
 ---
 
-<!-- 7) FEATURED OPS: replace these placeholder repositories with your real projects/CTFs. -->
-## 🎯 Featured Ops
+<!-- 8) FEATURED RESEARCH: replace repository names with actual work when available. -->
+## 🎯 Featured Research
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🔐 Security Lab</h3>
-      <p>Authorized security experiments, notes, and reproducible lab work.</p>
-      <a href="https://github.com/UITxWoodyNguyen/REPLACE-WITH-REPO-1">
-        <img src="https://img.shields.io/badge/VIEW_REPO-00F5FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="View Security Lab repository" />
+      <h3>🧩 Reverse Engineering Lab</h3>
+      <p>Binary analysis notes, tooling experiments, and annotated reversing exercises.</p>
+      <a href="https://github.com/UITxWoodyNguyen/REPLACE-WITH-REVERSE-ENGINEERING-REPO">
+        <img src="https://img.shields.io/badge/VIEW_REPO-00F5FF?style=for-the-badge&logo=github&logoColor=0D1117" alt="View reverse engineering repository" />
       </a>
     </td>
     <td width="33%" valign="top">
-      <h3>🧰 Blue Team Toolkit</h3>
-      <p>Small utilities for monitoring, hardening, and secure automation.</p>
-      <a href="https://github.com/UITxWoodyNguyen/REPLACE-WITH-REPO-2">
-        <img src="https://img.shields.io/badge/VIEW_REPO-8A2BE2?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="View Blue Team Toolkit repository" />
+      <h3>🧨 Pwn Research</h3>
+      <p>Controlled exploit-development studies covering memory corruption, mitigations, and automation.</p>
+      <a href="https://github.com/UITxWoodyNguyen/REPLACE-WITH-PWN-REPO">
+        <img src="https://img.shields.io/badge/VIEW_REPO-FF4D6D?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="View pwn research repository" />
       </a>
     </td>
     <td width="33%" valign="top">
-      <h3>🏴 CTF Writeups</h3>
-      <p>Learning notes and writeups from legal CTFs and training platforms.</p>
-      <a href="https://github.com/UITxWoodyNguyen/REPLACE-WITH-REPO-3">
-        <img src="https://img.shields.io/badge/VIEW_REPO-00FF9C?style=for-the-badge&logo=github&logoColor=0D1117" alt="View CTF Writeups repository" />
+      <h3>🔐 Crypto Notes</h3>
+      <p>Cryptography exercises, protocol analysis, mathematical derivations, and reproducible notebooks.</p>
+      <a href="https://github.com/UITxWoodyNguyen/REPLACE-WITH-CRYPTO-REPO">
+        <img src="https://img.shields.io/badge/VIEW_REPO-8A2BE2?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="View cryptography repository" />
       </a>
     </td>
   </tr>
@@ -141,7 +204,19 @@
 
 ---
 
-<!-- 8) CONNECT: replace placeholder URLs and email before publishing. -->
+<!-- 9) NOTES / PUBLICATIONS: add papers, preprints, or long-form technical writing here. -->
+## 📝 Notes & Publications
+
+- **Research notes:** [REPLACE-ME — link to notes, blog, or documentation]
+- **Preprints / papers:** [REPLACE-ME — Google Scholar, ORCID, arXiv, or personal page]
+- **Technical writing:** [REPLACE-ME — writeups and reproducible experiments]
+
+> Currently building a stronger foundation across systems security, binary analysis,
+> exploitation, and applied cryptography.
+
+---
+
+<!-- 10) CONNECT: replace only the URLs; badges remain intentionally minimal. -->
 ## 📡 Connect
 
 <p align="center">
@@ -152,7 +227,7 @@
     <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
   </a>
   <a href="https://REPLACE-ME.example.com">
-    <img src="https://img.shields.io/badge/Blog-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00F5FF" alt="Blog" />
+    <img src="https://img.shields.io/badge/Research_Notes-0D1117?style=for-the-badge&logo=readthedocs&logoColor=00F5FF" alt="Research notes" />
   </a>
   <a href="https://tryhackme.com/p/REPLACE-ME">
     <img src="https://img.shields.io/badge/TryHackMe-0D1117?style=for-the-badge&logo=tryhackme&logoColor=FF0000" alt="TryHackMe" />
@@ -164,7 +239,7 @@
 
 ---
 
-<!-- 9) FOOTER: snake is generated by .github/workflows/snake.yml. -->
+<!-- 11) FOOTER: generated by .github/workflows/snake.yml when that workflow is added. -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UITxWoodyNguyen/UITxWoodyNguyen/output/github-contribution-grid-snake-dark.svg" />
@@ -174,9 +249,9 @@
 </p>
 
 <p align="center">
-  <code>&gt; [ ACCESS GRANTED ]</code>
+  <code>&gt; [ RESEARCH MODE: ACTIVE ]</code>
 </p>
 
 <p align="center">
-  <sub>Build ethically. Learn continuously. Defend what matters.</sub>
+  <sub>Understand deeply. Exploit responsibly. Publish clearly.</sub>
 </p>
