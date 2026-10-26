@@ -195,14 +195,3 @@ Primary interests
 
 ---
 
-<!-- 9) NOTES / PUBLICATIONS: add papers, preprints, or long-form technical writing here. -->
-## 📝 Notes & Publications
-
-- **Research notes:** [REPLACE-ME — link to notes, blog, or documentation]
-- **Preprints / papers:** [REPLACE-ME — Google Scholar, ORCID, arXiv, or personal page]
-- **Technical writing:** [REPLACE-ME — writeups and reproducible experiments]
-
-> Currently building a stronger foundation across systems security, binary analysis,
-> exploitation, and applied cryptography.
-
----
